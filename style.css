@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+    transition:all 1000ms;
+}
+/* Center the buttons and result text vertically and horizontally */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    border:2px solid aliceblue;
+    border-radius: 5px;
+    border-color: aliceblue;
+  }
+  .container button {
+    background-color: black;
+    color: aliceblue;
+    margin: 10px;
+    padding: 10px;
+    transition: all 1000ms;
+
+    border:2px solid aliceblue;
+    border-radius: 5px;
+  }
+  .container button:hover {
+    background-color: aliceblue;
+    color: rebeccapurple;
+  }
+
+  .result-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    display:none;
+    color:aliceblue;
+  }
